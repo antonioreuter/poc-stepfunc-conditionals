@@ -1,0 +1,20 @@
+{
+    "records": [
+      {
+        "id": "10",
+        "orchestrationMode": "snapshot",
+        "action": "MODIFY",
+        "jobDocId": "999-876",
+        "status": "CANCEL",
+        "iotError": "InvalidJobDocIdError"
+      },
+      {
+        "id": "11",
+        "orchestrationMode": "snapshot",
+        "action": "DELETE",
+        "jobDocId": "777-453",
+        "status": "CANCEL",
+        "dbError": "ResourceNotFoundError"
+      }
+    ]
+  }

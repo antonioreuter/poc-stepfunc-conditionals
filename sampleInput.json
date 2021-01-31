@@ -1,0 +1,62 @@
+{
+    "records": [
+        {
+            "id": "1",
+            "orchestrationMode": "none",
+            "action": "INSERT",
+            "jobDocId": "123-456",
+            "status": "ACTIVE"
+        },
+        {
+            "id": "2",
+            "orchestrationMode": "none",
+            "action": "MODIFY",
+            "jobDocId": "000-678",
+            "status": "CANCEL"
+        },
+        {
+            "id": "3",
+            "orchestrationMode": "none",
+            "action": "DELETE",
+            "jobDocId": "123-456",
+            "status": "ACTIVE"
+        },
+        {
+            "id": "4",
+            "orchestrationMode": "none",
+            "action": "MODIFY",
+            "jobDocId": "999-876",
+            "status": "CANCEL",
+            "iotError": "InvalidJobDocIdError"
+        },
+        {
+            "id": "5",
+            "orchestrationMode": "snapshot",
+            "action": "INSERT",
+            "jobDocId": "789-417",
+            "status": "ACTIVE"
+        },
+        {
+            "id": "6",
+            "orchestrationMode": "snapshot",
+            "action": "MODIFY",
+            "jobDocId": "053-768",
+            "status": "CANCEL"
+        },
+        {
+            "id": "7",
+            "orchestrationMode": "snapshot",
+            "action": "DELETE",
+            "jobDocId": "048-956",
+            "status": "ACTIVE"
+        },
+        {
+            "id": "8",
+            "orchestrationMode": "snapshot",
+            "action": "MODIFY",
+            "jobDocId": "777-453",
+            "status": "CANCEL",
+            "dbError": "ResourceNotFoundError"
+        }
+    ]
+}
